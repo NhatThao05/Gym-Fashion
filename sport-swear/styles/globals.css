@@ -239,17 +239,19 @@ text-align: end;
 .banner-desc .left h3{
   font-weight: 900;
   font-size: 80px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 .banner-desc .left p{
-  margin:18px;
+  margin: 30px;
 }
 .footer-banner-image{
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -25%;
+  top: 5%;
   left: 25%;
+  height: 360px;
+  border-radius: 10px;
 }
 .banner-desc .right{
   line-height: 1.4;
