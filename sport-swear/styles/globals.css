@@ -17,7 +17,7 @@ a {
 }
 
 .main-container{
-max-width: 1400px; 
+max-width: 2000px; 
 margin: auto;
 width: 100%;
 
@@ -167,7 +167,7 @@ width: 100%;
 .hero-banner-image{
   position: absolute;
   top: 0%;
-  right:20%;
+  right: 25%;
   width: 500px;
   height: 500px;
 }
@@ -251,6 +251,7 @@ text-align: end;
   top: 5%;
   left: 25%;
   height: 360px;
+  width: 25%;
   border-radius: 10px;
 }
 .banner-desc .right{
@@ -625,34 +626,39 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 45%;
+    height: 70%;
+    top: 5%;
+    right: 5%;
+    border-radius: 10px;
   }
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
+    padding: 25px;
   }
   .footer-banner-image{
-    width: 77%;
+    width: 50%;
     left: 30%;
-    top: 6%;
-    height: 56%
+    top: 34%;
+    height: 65%
   }
   .banner-desc .left h3{
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 5px;
   }
   .banner-desc .left p{
-    margin:18px;
+    margin: 5px;
   }
   .banner-desc .right h3{
-    font-size: 45px;
+    font-size: 40px;
   }
   .banner-desc .right p{
     font-size: 18px;
+  }
+  .banner-desc .right button{
+    margin-top: 10px;
   }
   .banner-desc .right .company-desc{
     font-size: 14px;
