@@ -17,7 +17,7 @@ export default function ProductDetails({product, products}) {
         </div>
         <div className='small-images-container'>
           {image?.map((item, i) => (
-           <img src={urlFor(item)} className="small-image" onMouseEnter={() => setIndex(i)}/>
+           <img src={urlFor(item)} key={i} className="small-image" onMouseEnter={() => setIndex(i)}/>
           ))}
         </div>
        </div>
